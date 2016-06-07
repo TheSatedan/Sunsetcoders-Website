@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/06/2016, 11:07:21 PM
+    Author     : sated
+*/
+*
+{
+    font-family: Raleway; 
+}
+
+table.sunset-contact-box
+{
+    border-collapse: separate;
+    border-spacing: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+textarea{
+
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    font-weight: bold;
+}
+
+#formBox
+{
+
+    background-color: #f1f1f1;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.body-content
+{
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+input[type=text]
+{
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+
+    border: 0;
+    width: 120px;
+    height:25px;
+
+    background: #ff7e00;
+    color: #fff;
+
+}
+.contact-header
+{
+    font-size: 22pt;
+    text-align: center;
+}
+
+.contact-subheader
+{
+    font-size: 16px;
+    text-align: center;
+}

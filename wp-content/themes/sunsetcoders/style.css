@@ -1,0 +1,141 @@
+#footerBox
+{
+    width: 100%;
+    background-color: #323639;
+    height: 150px;
+    border-top: 2px #e1e1e1 solid;
+}
+
+h1#site-title
+{
+    font-size: 22px;
+}
+
+.paddingBox{
+    padding: 15px;
+}
+
+#aboutBox
+{
+    height: 170px;
+    padding: 30px;
+    text-align:justify;
+    
+}
+.HeaderBox
+{
+    width: 100%;
+    background-color: #323639;
+    height: 150px;
+    border-bottom: 2px #e1e1e1 solid;
+}
+
+.leftHeader
+{
+    width: 50%;
+    float: left;
+}
+
+.rightHeader
+{
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+.orangeBox
+{
+    width: 100%;
+    background-color: #ff7e00;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.full-screen
+{
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.leftBank
+{
+    padding: 20px;
+    max-width: 512px;
+    text-align: left;
+}
+
+.rightBank
+{
+    padding: 20px;
+    max-width: 512px;
+    text-align: right;
+}
+
+
+.quote
+{
+    height: 100px;
+    background-color: #28398d;
+    width: 100%;
+    text-align: center;
+}
+.body-content
+{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+#footer-widgets {
+    display: block;
+    width:1024px;
+    margin-right:0;
+
+}
+#footer-widget1 {
+    min-width: 23%;
+    padding: 25px;
+    float: left;
+}
+#footer-widget2 {
+    min-width: 53%;
+    float: left;
+}
+#footer-widget3 {
+    min-width: 23%;
+    float: left;
+    padding: 15px;
+    text-align: left;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+    background-repeat: repeat-x; 
+}
+
+li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 5px 5px;
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+li a:hover {
+    color: #fff;
+    background-color: #000;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}

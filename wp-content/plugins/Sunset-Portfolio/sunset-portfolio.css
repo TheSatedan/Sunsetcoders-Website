@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+}
+
+.container div {
+    width: 100%;
+}
+
+.container .header {
+    background-color: #d3d3d3;
+    padding: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 75px;
+    line-height: 75px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container .content {
+    display: none;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+#PortfolioBox {
+    width: 100%;
+    background-color: #d3d3d3;
+}
+
+div.portfolioCell {
+    padding: 40px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+img.grow {
+    text-align: center;
+    width: 150px;
+    transition: all 1.7s ease-in-out;
+}
+
+img.grow:hover {
+    transform: scale(4.5);
+    -webkit-transition: all 300ms ease-out;
+}
+
+a.pageOwner {
+    font-size: 16pt;
+    color: #ff7e00;
+    text-decoration: none;
+    font-weight: bold;
+}

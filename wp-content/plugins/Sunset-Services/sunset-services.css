@@ -1,0 +1,30 @@
+body-content
+{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+#ServiceBox
+{
+    padding: 20px;
+    font-size: 18px;
+}
+
+div.serviceCell
+{
+    padding: 40px;
+    border: 1px solid #e1e1e1;
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.serviceCell:hover
+{
+    background-color: #f1f1f1;
+
+}
